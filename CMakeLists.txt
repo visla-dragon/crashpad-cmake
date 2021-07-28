@@ -56,7 +56,7 @@ endif()
 FetchContent_Declare(
     mini_chromium_git
     GIT_REPOSITORY https://github.com/chromium/mini_chromium.git
-    GIT_TAG        f9ae4322dfc5bcc14cc82d6005107f3b75ca2059
+    GIT_TAG        ae14a14
 )
 
 if(NOT mini_chromium_git_POPULATED)
@@ -67,7 +67,7 @@ endif()
 FetchContent_Declare(
     crashpad_git
     GIT_REPOSITORY https://github.com/backtrace-labs/crashpad.git
-    GIT_TAG        7b9686bb65af618daa5dd06d140c849b51884cb4
+    GIT_TAG        558c961
 )
 
 if(NOT crashpad_git_POPULATED)
